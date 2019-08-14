@@ -25,7 +25,9 @@ keepNV:\
 test_fake_acc: 0.7675, test_acc_real: 0.9352, bleu: 0.340, b1: 15.800, b2: 1.200, b3: 0.100, b4: 0.000
 
 
-generated sample
+
+
+## generated sample
 
 ### yelp:
 #### negative 2 positive:
@@ -56,6 +58,7 @@ generated sample
 | positive review      | negative review     | 
 | ---------- | :-----------:  | 
 | incredible hotel , incredible staff in the perfect location in downtown montreal . the breakfast , whether complementary or through the restaurant , is incredible . the hotel space is trendy , funky and very cool .      |tthis hotel is the worst staff ever . this location is very rude and the breakfast tasted bad . the hotel is very dirty and the space is very small .      | 
+
 
 
 
