@@ -27,7 +27,7 @@ test_fake_acc: 0.7675, test_acc_real: 0.9352, bleu: 0.340, b1: 15.800, b2: 1.200
 
 generated sample
 
-### yelp:\
+### yelp:
 #### negative 2 positive:
 
 | negative review      | positive review     | 
@@ -44,7 +44,7 @@ generated sample
 | it was fabulous !        |i was very disappointed .     | 
                                                                                       
 
-### amazon:\
+### amazon:
 #### negative 2 positive
 
 | negative review      | positive review     | 
