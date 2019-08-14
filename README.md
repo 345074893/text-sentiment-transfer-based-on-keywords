@@ -29,7 +29,7 @@ test_fake_acc: 0.7675, test_acc_real: 0.9352, bleu: 10.170, bleu1: 34.700, bleu2
 
 ## generated sample
 
-### yelp:
+### yelp(sentence level):
 #### negative 2 positive:
 
 | negative review      | positive review     | 
@@ -46,7 +46,7 @@ test_fake_acc: 0.7675, test_acc_real: 0.9352, bleu: 10.170, bleu1: 34.700, bleu2
 | it was fabulous !        |i was very disappointed .     | 
                                                                                       
 
-### amazon:
+### amazon(paragraph level):
 #### negative 2 positive
 
 | negative review      | positive review     | 
