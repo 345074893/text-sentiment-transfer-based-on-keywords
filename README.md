@@ -1,6 +1,6 @@
 # text-sentiment-transfer-based-on-kewwords
 
-#### This model implements text sentiment transfer both in sentence level and paragraph level by using keyword generation. Note that Our model does not require any discriminator to provide any constraints to achieve high migration accuracy. 
+This model implements text sentiment transfer both in sentence level and paragraph level by using keyword generation. Note that Our model does not require any discriminator to provide any constraints to achieve high migration accuracy. 
 There are 3 method called: keepNV、keepN、styleword.
 
 In the Yelp resturant review dataset(sentence level) ,all 3 method achieved:
@@ -32,8 +32,7 @@ run GAN.py
 
 generated sample
 
-yelp:
-
+yelp:\
 negative 2 positive:
 
 | negative review      | positive review     | 
