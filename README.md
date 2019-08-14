@@ -25,15 +25,10 @@ keepNV:\
 test_fake_acc: 0.7675, test_acc_real: 0.9352, bleu: 0.340, b1: 15.800, b2: 1.200, b3: 0.100, b4: 0.000
 
 
-
---mdoel training：
-run GAN.py
-
-
 generated sample
 
-yelp:\
-negative 2 positive:
+### yelp:\
+#### negative 2 positive:
 
 | negative review      | positive review     | 
 | ---------- | :-----------:  | 
@@ -41,7 +36,7 @@ negative 2 positive:
 | i would n't come back here though .       | i would come back soon .      | 
 
            
-positive 2 negative:
+#### positive 2 negative:
 
 | positive review      | negative review     | 
 | ---------- | :-----------:  | 
@@ -49,15 +44,20 @@ positive 2 negative:
 | it was fabulous !        |i was very disappointed .     | 
                                                                                       
 
-amazon:\
-negative 2 positive
+### amazon:\
+#### negative 2 positive
 
 | negative review      | positive review     | 
 | ---------- | :-----------:  | 
 | i 've been here three different times and every time regardless of how many customers are in store the wait is ridiculous . they have about 7-9 stations yet only use two or three to help people . waiting 1-2 hours is not ideal for customer service .      | i have been here several times and have been getting a third time . i have been to the first time and the help is always good . they have a nice stations and the people are very nice and friendly . i love the two hours of the customer service . | 
 
-positive 2 negative
+#### positive 2 negative
 
 | positive review      | negative review     | 
 | ---------- | :-----------:  | 
 | incredible hotel , incredible staff in the perfect location in downtown montreal . the breakfast , whether complementary or through the restaurant , is incredible . the hotel space is trendy , funky and very cool .      |tthis hotel is the worst staff ever . this location is very rude and the breakfast tasted bad . the hotel is very dirty and the space is very small .      | 
+
+
+
+## --mdoel training：
+run GAN.py
