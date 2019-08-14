@@ -13,8 +13,11 @@ keepNV:
 
 In the Amazon food review dataset(paragraph level length 30) ,it achieved:
 keepN：
+
 test_fake_acc: 0.8257, test_acc_real: 0.8992, bleu: 0.600, b1: 14.300, b2: 1.200, b3: 0.200, b4: 0.000
+
 keepNV:
+
 test_fake_acc: 0.7225, test_acc_real: 0.9000, bleu: 0.230, b1: 13.000, b2: 0.700, b3: 0.100, b4: 0.000
 
 In the Amazon food review dataset(paragraph level length 50) ,it achieved:
