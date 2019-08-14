@@ -6,23 +6,23 @@ There are 3 method called: keepNV、keepN、styleword.
 In the Yelp resturant review dataset(sentence level) ,all 3 method achieved:
 
 styleword:\
-test_fake_acc: 0.7717, test_acc_real: 0.9630, bleu: 0.110, bleu1: 10.900, bleu2: 0.300\
+test_fake_acc: 0.7717, test_acc_real: 0.9630, bleu: 18.980, bleu1: 58.800, bleu2: 28.200, bleu3: 13.100, bleu4: 6.300\
 keepN：\
-test_fake_acc: 0.9361, test_acc_real: 0.9628, bleu: 0.240, bleu1: 11.700, bleu2: 0.400\
+test_fake_acc: 0.9361, test_acc_real: 0.9628, \
 keepNV:
 
 
 In the Amazon food review dataset(paragraph level length 30) ,it achieved:\
 keepN：\
-test_fake_acc: 0.8257, test_acc_real: 0.8992, bleu: 0.600, b1: 14.300, b2: 1.200, b3: 0.200, b4: 0.000\
+test_fake_acc: 0.8257, test_acc_real: 0.8992, bleu: 7.480, bleu1: 49.300, bleu2: 14.600, bleu3: 4.600, bleu4: 1.600\
 keepNV:\
-test_fake_acc: 0.7225, test_acc_real: 0.9000, bleu: 0.230, b1: 13.000, b2: 0.700, b3: 0.100, b4: 0.000
+test_fake_acc: 0.7225, test_acc_real: 0.9000, bleu: 21.070, bleu1: 70.000, bleu2: 34.900, bleu3: 17.800, bleu4: 9.400
 
 In the Amazon food review dataset(paragraph level length 50) ,it achieved:\
 keepN：\
-test_fake_acc: 0.9180, test_acc_real: 0.9347, bleu: 1.340, b1: 17.100, b2: 2.600, b3: 0.500, b4: 0.200\
+test_fake_acc: 0.9180, test_acc_real: 0.9347, bleu: 6.720, bleu1: 47.500, bleu2: 13.000, bleu3: 3.700, bleu4: 1.200\
 keepNV:\
-test_fake_acc: 0.7675, test_acc_real: 0.9352, bleu: 0.340, b1: 15.800, b2: 1.200, b3: 0.100, b4: 0.000
+test_fake_acc: 0.7675, test_acc_real: 0.9352, bleu: 10.170, bleu1: 34.700, bleu2: 14.200, bleu3: 6.900, bleu4: 3.400
 
 
 
