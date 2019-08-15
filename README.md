@@ -8,8 +8,9 @@ In the Yelp resturant review dataset(sentence level) ,all 3 method achieved:
 styleword:\
 test_fake_acc: 0.7717, test_acc_real: 0.9630, bleu: 18.980, bleu1: 58.800, bleu2: 28.200, bleu3: 13.100, bleu4: 6.300\
 keepN：\
-test_fake_acc: 0.9361, test_acc_real: 0.9628, \
-keepNV:
+test_fake_acc: 0.9361, test_acc_real: 0.9628, bleu: 7.970, bleu1: 49.000, bleu2: 16.300, bleu3: 5.200, bleu4: 1.700\
+keepNV:\
+test_fake_acc: 0.7452, test_acc_real: 0.9690, bleu: 19.840, bleu1: 63.800, bleu2: 32.600, bleu3: 15.300, bleu4: 7.100
 
 
 In the Amazon food review dataset(paragraph level length 30) ,it achieved:\
@@ -57,7 +58,7 @@ test_fake_acc: 0.7675, test_acc_real: 0.9352, bleu: 10.170, bleu1: 34.700, bleu2
 
 | positive review      | negative review     | 
 | ---------- | :-----------:  | 
-| incredible hotel , incredible staff in the perfect location in downtown montreal . the breakfast , whether complementary or through the restaurant , is incredible . the hotel space is trendy , funky and very cool .      |tthis hotel is the worst staff ever . this location is very rude and the breakfast tasted bad . the hotel is very dirty and the space is very small .      | 
+| incredible hotel , incredible staff in the perfect location in downtown montreal . the breakfast , whether complementary or through the restaurant , is incredible . the hotel space is trendy , funky and very cool .      |this hotel is the worst staff ever . this location is very rude and the breakfast tasted bad . the hotel is very dirty and the space is very small .      | 
 
 
 
